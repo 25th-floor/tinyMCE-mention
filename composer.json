@@ -1,0 +1,40 @@
+{
+	"name": "25th-floor/tinyMCE-mention",
+	"version": "4.0.1",
+	"description": "Mention/Autocomplete plugin for tinyMCE WYSIWYG editor.",
+	"license": [
+		"MIT"
+	],
+	"keywords": [
+		"editor",
+		"wysiwyg",
+		"tinymce",
+		"richtext",
+		"javascript",
+		"html",
+		"autocomplete"
+	],
+	"homepage": "http://cognistreamer.github.io/tinyMCE-mention/",
+	"type": "component",
+	"extra": {
+		"component": {
+			"scripts": [
+				"mention/plugin.min.js",
+			],
+			"files": [
+				"css/**",
+			]
+		}
+	},
+	"archive": {
+		"exclude": [
+			"README.md",
+			"bower.json",
+			"package.json",
+			".npmignore",
+			".travis.yml",
+			".jshintrc",
+			"changelog.txt"
+		]
+	}
+}
